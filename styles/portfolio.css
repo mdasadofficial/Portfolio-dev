@@ -48,6 +48,12 @@ margin-bottom: 30px;
   color: #757575;
 
 }
+
+.text-center{
+
+  text-align: center;
+}
+  
 /* main style */
 
 header { background-color: #FFF8F3;
@@ -237,5 +243,50 @@ line-height: 28px;
   font-size: 16px;
   font-weight: 600;
   line-height: 28px;
+  color: #757575;
+}
+
+footer{
+  margin-top: 130px;
+  background-color: #FFF8F3;
+  padding: 130px;
+
+}
+
+footer .footer-container{
+  width: 71%;
+  max-width: 1140px;
+  margin: 0 auto;
+  display: flex;
+  gap: 116px;
+}
+
+.footer-container .social{
+  max-width: 562px;
+}
+.footer-container h2{
+  font-size: 35PX;
+  color: #181818;
+  margin-bottom: 20PX;
+}
+
+.footer-container .social p{
+color: #474747;
+line: height 28PX;
+font-size: 16PX;
+margin-bottom: 30PX;
+}
+
+.footer-container .icons a {
+  margin-right: 24px;
+
+}
+
+.footer-container form input[type="text"], .footer-container form textarea{
+  width: 461px;
+  padding: 18px 31px;
+  margin-bottom: 24px;
+  border: none;
+  border-radius: 5px;
   color: #757575;
 }
