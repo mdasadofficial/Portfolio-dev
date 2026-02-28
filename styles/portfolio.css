@@ -290,3 +290,107 @@ margin-bottom: 30PX;
   border-radius: 5px;
   color: #757575;
 }
+
+
+
+@media (max-width:768px){
+
+  nav{
+    flex-direction:column;
+    gap:20px;
+    width:90%;
+  }
+
+  nav .menu{
+    flex-direction:column;
+    gap:20px;
+  }
+
+  #banner{
+    flex-direction:column;
+    margin:40px 20px;
+    text-align:center;
+  }
+
+  #banner .banner-image img{
+    max-width:100%;
+  }
+
+  #about .about-container{
+    width:90%;
+    padding:60px 20px;
+  }
+
+  #about .about-container .about-info{
+    flex-direction:column;
+    gap:20px;
+  }
+
+  #skills .skills-container{
+    width:90%;
+  }
+
+  #skills .skills-container .skill-box{
+    flex-direction:column;
+    align-items:center;
+  }
+
+  #resume .resume-container{
+    flex-direction:column;
+    width:90%;
+  }
+
+  footer{
+    padding:60px 20px;
+  }
+
+  footer .footer-container{
+    flex-direction:column;
+    width:90%;
+    gap:50px;
+  }
+
+  .footer-container form input[type="text"],
+  .footer-container form textarea{
+    width:100%;
+  }
+
+}
+
+
+
+
+@media (min-width:769px) and (max-width:1024px){
+
+  #banner{
+    margin:40px;
+  }
+
+  #about .about-container{
+    width:90%;
+    padding:80px 40px;
+  }
+
+  #about .about-container .about-info{
+    flex-wrap:wrap;
+    gap:30px;
+  }
+
+  #skills .skills-container{
+    width:90%;
+  }
+
+  #skills .skills-container .skill-box{
+    flex-wrap:wrap;
+    justify-content:center;
+  }
+
+  #resume .resume-container{
+    width:90%;
+  }
+
+  footer .footer-container{
+    width:90%;
+  }
+
+}
